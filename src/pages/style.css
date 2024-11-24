@@ -1,0 +1,420 @@
+/* App.css */
+.black-text {
+    color: black;
+  }
+  /* General Page Styling */
+/* General Page Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('your-background-image.jpg'); /* Replace with your background image */
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #000; /* Default text color to black */
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    text-align: center;
+    padding: 50px 20px;
+    color: #000; /* Black text */
+  }
+  
+  .hero-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #333; /* Button background color */
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .cta-button:hover {
+    background-color: #555;
+  }
+  
+  /* About Section */
+  .about-section {
+    padding: 40px 20px;
+    text-align: center;
+    color: #000; /* Black text */
+  }
+  
+  .about-section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Highlights Section */
+  .highlights-section {
+    padding: 40px 20px;
+    text-align: center;
+    color: #000; /* Black text */
+  }
+  
+  .highlights-section h2 {
+    margin-bottom: 20px;
+  }
+  
+  .links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .highlight-link {
+    text-decoration: none;
+    color: black; /* Green links */
+    font-weight: bold;
+  }
+  
+  .highlight-link:hover {
+    color: #333;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    margin-top: 20px;
+  }
+  /* General Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #000; /* Black text for all content */
+
+  }
+  
+  /* Header Section */
+  .hobbies-header {
+    text-align: center;
+    padding: 50px 20px;
+
+  }
+  
+  .hobbies-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #000; /* Black text */
+  }
+  
+  .hobbies-header p {
+    font-size: 1.2rem;
+    color: #333; /* Slightly lighter black for secondary text */
+  }
+  
+  /* Content Section */
+  .hobbies-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    gap: 30px;
+  }
+  
+  .hobby-item {
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #000; /* Ensure text inside hobby items is black */
+  }
+  
+  .hobby-item h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #000; /* Black text for headings */
+  }
+  
+  .hobby-item p {
+    font-size: 1rem;
+    color: black; /* Slightly lighter black for paragraph text */
+  }
+  
+  /* Footer Section */
+  .hobbies-footer {
+    text-align: center;
+    padding: 20px;
+    background-color:black; /* Dark background */
+  }
+  /* Education Page Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .education-container {
+    padding: 20px;
+    color: #000; /* Black text for readability */
+  }
+  
+  .education-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 20px;
+    color: black;
+  }
+  
+  .education-intro {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: black;
+  }
+  
+  .education-timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .education-item {
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .education-item h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color:black;
+  }
+  
+  .education-item p {
+    font-size: 1rem;
+    color: black;
+  }
+  
+  .education-footer {
+        text-align: center;
+        padding: 20px;
+        color: white;
+        background-color: #333;
+        margin-top: 20px;
+      
+  }
+  /* About Page Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Light blue for a soft feel */
+    color: #000; /* Black text for readability */
+  }
+  
+  .about-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+  }
+  
+  .about-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .about-intro {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    text-align: justify;
+    color: black;
+  }
+  
+  .about-subtitle {
+    font-size: 1.8rem;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: black;
+  }
+  
+  p {
+    font-size: 1rem;
+    color: black;
+    text-align: justify;
+  }
+  .contact-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+  color: black;
+}
+
+.social-links {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icon {
+  width: 50px;
+  height: 50px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.social-icon:hover {
+  transform: scale(1.1); /* Slightly enlarges the icon on hover */
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+/* Styling for Hobby Images */
+.hobby-image {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  /* Education Page Styling */
+.education-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 0 auto; /* Centers the content */
+    text-align: center;
+  }
+  
+  .education-title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .education-intro {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 40px;
+  }
+  
+  .education-timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .education-item {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+    color: #000;
+  }
+  
+  .education-item h2 {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+  }
+  
+  .education-item p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Style for images inside education items */
+  .education-image {
+    width: 100%; /* Makes the image responsive */
+    max-width: 300px; /* Restrict image size */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px;
+    margin-top: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navigation-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .highlight-link {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+  }
+  
+  .highlight-link:hover {
+    color: #0056b3;
+  }
+  /* Centering all text in About page */
+.about-container {
+    text-align: center; /* Center align all text within the container */
+    max-width: 800px; /* Optional: Limiting the width for better readability */
+    margin: 0 auto; /* Center the container itself */
+    padding: 20px;
+  }
+  
+  .about-title {
+    font-size: 2.5rem;
+    color: #333; /* Dark text for title */
+    margin-bottom: 20px;
+  }
+  
+  .about-intro,
+  .about-subtitle,
+  .about-container p {
+    font-size: 1.2rem;
+    color: #333; /* Black text for paragraphs */
+    line-height: 1.6;
+    margin-bottom: 20px; /* Add space below each paragraph */
+  }
+  
+  .about-subtitle {
+    font-size: 1.8rem;
+    margin-top: 30px;
+    color: #444; /* Slightly lighter color for subtitles */
+  }
+  
+  
+  
