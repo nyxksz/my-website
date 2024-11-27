@@ -10,7 +10,7 @@ const Contact = () => {
       <div className="contact-info">
         <h2 className="homepage">Social Media</h2>
         <div className="social-links">
-          <a href="https://www.facebook.com/yourprofile" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.facebook.com/nyx.azotillo" target="_blank" rel="noopener noreferrer">
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg"
               alt="Facebook"
@@ -24,7 +24,7 @@ const Contact = () => {
               className="social-icon"
             />
           </a>
-          <a href="https://www.instagram.com/yourprofile" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/nyxksz/" target="_blank" rel="noopener noreferrer">
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
               alt="Instagram"
